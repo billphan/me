@@ -1,0 +1,696 @@
+/************************************************************************************
+
+VIEWPORTS SMALLER THAN 980px
+
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+
+  /* GENERAL STYLES */
+
+	.min-wrapper {
+    width: 90%;
+  }
+
+  /* HEADER STYLES */
+
+  .header {
+    width: 100%;
+    height: 200px;
+    position: static;
+  }
+
+  .logo {
+    float: none;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .main-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .header ul {
+    float: none;
+    padding-top: 12px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .header ul li {    
+    margin: 0 10px;
+    font-size: 15px;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 75px 0;
+  }
+
+  .cmn-t-underline:after {
+    display: none;
+  }
+
+  /* HOME PAGE */
+
+  .index {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0 50px 0;
+  }
+
+  .index p {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  .index iframe {
+    width: 100%;
+    display: none;
+    padding-top: 0px;
+  }
+
+  /* OVERVIEW PAGE */
+
+  .overview {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+
+  /* MISSION PAGE*/
+
+  .mission-overview {
+    width: 100%;
+  }
+
+  .mission-equipment {
+    width: 100%;
+  }
+
+  .mission-equipment p {
+    font-size: 18px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  /* CREW PAGE */
+
+  .crew h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+  .crew-section {
+    width: 100%;
+  }
+
+  .crew-section img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .crew-info h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  img.ares-group {
+    width: 100%;
+  }
+
+  hr.hr-crew {
+    width: 100%;
+  }
+
+  /* MEDIA PAGE */
+
+  .media {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+  .media h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .media iframe {
+    width: 100%;
+    padding: 15px 0 15px 0;
+  }
+
+}
+
+/************************************************************************************
+Viewports smaller than 650px
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+
+  /* GENERAL STYLES */
+
+  .min-wrapper {
+    width: 90%;
+  }
+
+  /* HEADER STYLES */
+
+  .header {
+    width: 100%;
+    height: 200px;
+    position: static;
+  }
+
+  .logo {
+    float: none;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .main-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .header ul {
+    float: none;
+    padding-top: 12px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .header ul li {    
+    margin: 0 10px;
+    font-size: 15px;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 75px 0;
+  }
+
+  .cmn-t-underline:after {
+    display: none;
+  }
+
+  /* HOME PAGE */
+
+  .index {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0 50px 0;
+  }
+
+  .index p {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  .index iframe {
+    width: 100%;
+    display: none;
+    padding-top: 0px;
+  }
+
+  /* OVERVIEW PAGE */
+
+  .overview {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+
+  /* MISSION PAGE*/
+
+  .mission-overview {
+    width: 100%;
+  }
+
+  .mission-equipment {
+    width: 100%;
+  }
+
+  .mission-equipment p {
+    font-size: 18px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  /* CREW PAGE */
+
+  .crew h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+  .crew-section {
+    width: 100%;
+  }
+
+  .crew-section img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .crew-info h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  img.ares-group {
+    width: 100%;
+  }
+
+  hr.hr-crew {
+    width: 100%;
+  }
+
+  /* MEDIA PAGE */
+
+  .media {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+  .media h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .media iframe {
+    width: 100%;
+    padding: 15px 0 15px 0;
+  }
+
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+  
+  /* GENERAL STYLES */
+
+  .min-wrapper {
+    width: 90%;
+  }
+
+  /* HEADER STYLES */
+
+  .header {
+    width: 100%;
+    height: 200px;
+    position: static;
+  }
+
+  .logo {
+    float: none;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .main-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .header ul {
+    float: none;
+    padding-top: 12px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .header ul li {    
+    margin: 0 10px;
+    font-size: 15px;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 75px 0;
+  }
+
+  .cmn-t-underline:after {
+    display: none;
+  }
+
+  /* HOME PAGE */
+
+  .index {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0 50px 0;
+  }
+
+  .index p {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  .index iframe {
+    width: 100%;
+    display: none;
+    padding-top: 0px;
+  }
+
+  /* OVERVIEW PAGE */
+
+  .overview {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+
+  /* MISSION PAGE*/
+
+  .mission-overview {
+    width: 100%;
+  }
+
+  .mission-equipment {
+    width: 100%;
+  }
+
+  .mission-equipment p {
+    font-size: 18px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  /* CREW PAGE */
+
+  .crew h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+  .crew-section {
+    width: 100%;
+  }
+
+  .crew-section img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .crew-info h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  img.ares-group {
+    width: 100%;
+  }
+
+  hr.hr-crew {
+    width: 100%;
+  }
+
+  /* MEDIA PAGE */
+
+  .media {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+  .media h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .media iframe {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+}
+
+/************************************************************************************
+
+iPad Landscape Orientation Media Query Smaller than 768px;
+
+*************************************************************************************/
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+  /* GENERAL STYLES */
+
+  .min-wrapper {
+    width: 90%;
+  }
+
+  /* HEADER STYLES */
+
+  .header {
+    width: 100%;
+    height: 200px;
+    position: static;
+  }
+
+  .logo {
+    float: none;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .main-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .header ul {
+    float: none;
+    padding-top: 12px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .header ul li {    
+    margin: 0 10px;
+    font-size: 15px;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 75px 0;
+  }
+
+  .cmn-t-underline:after {
+    display: none;
+  }
+
+  /* HOME PAGE */
+
+  .index {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0 50px 0;
+  }
+
+  .index p {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  .index iframe {
+    width: 100%;
+    display: none;
+    padding-top: 0px;
+  }
+
+  /* OVERVIEW PAGE */
+
+  .overview {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+
+  /* MISSION PAGE*/
+
+  .mission-overview {
+    width: 100%;
+  }
+
+  .mission-equipment {
+    width: 100%;
+  }
+
+  .mission-equipment p {
+    font-size: 18px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  /* CREW PAGE */
+
+  .crew h1 {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .crew-section {
+    width: 100%;
+  }
+
+  .crew-section img {
+    float: none;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .crew-info h1 {
+    width: 100%;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  img.ares-group {
+    width: 100%;
+  }
+
+  hr.hr-crew {
+    width: 100%;
+  }
+
+  /* MEDIA PAGE */
+
+  .media {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+
+  .media h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .media iframe {
+    width: 100%;
+    padding: 15px 0 15px 0;
+  }
+
+}
