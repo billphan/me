@@ -7,7 +7,7 @@
     <title>Bill Phan | Interaction Designer &amp; Developer</title>
     <meta charset="UTF-8">
     <meta name="author" content="Bill Phan"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="description" content="An obsessively curious believer in technology, entrepreneurs, and space travel.">
     <link rel="shortcut icon" href="../assets/images/favicon.png">
     <!-- STYLES -->
@@ -23,7 +23,16 @@
     <script type="text/javascript" src="../scripts/lightgallery.js"></script>
     <!-- WOW SCRIPT -->
     <script>
-      new WOW().init();
+      wow = new WOW (
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       False,       // set to false
+        live:         true        // default
+        }
+      )
+      wow.init();
     </script>
     <!-- LIGHTGALLERY SCRIPT -->
     <script type="text/javascript">
