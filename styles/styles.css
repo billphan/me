@@ -6,7 +6,7 @@
 
 body {
   color: #343434;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   background-color: #f5f5f5;
   font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
@@ -38,7 +38,6 @@ p {
   margin: 30px 0;
   font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 0.5px;
   font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -168,7 +167,7 @@ hr {
   z-index: 1;
   width: 100%;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   transform: translateY(-50%);
   content: attr(data-content);
@@ -208,11 +207,11 @@ hr {
 
 .project-content .project-info p {
   width: 100%;
-  color: #505050;
-  font-size: 18px;
+  color: #666;
+  font-size: 16px;
   line-height: 1.5;
   margin: 35px 0 20px 0;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
+  font-family: 'RobotoMono-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -239,7 +238,7 @@ hr {
 }
 
 .project-content .project-section h1 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
   font-family: 'DisplayType', 'NeueHaasUnicaPro-Medium', 'Helvetica Neue', sans-serif;
@@ -254,12 +253,11 @@ hr {
 }
 
 .project-content .project-section h2 a {
-  color: #2f2f2f;
-  font-size: 18px;
+  color: #666;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.5px;
   text-decoration: none;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
+  font-family: 'RobotoMono-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -276,10 +274,11 @@ hr {
 
 .project-content .project-section p {
   margin: 0;
+  color: #666;
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
+  font-family: 'RobotoMono-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -346,18 +345,25 @@ hr {
   text-rendering: optimizeLegibility;
 }
 
+.about-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: 'RobotoMono-Regular', 'Helvetica Neue', sans-serif;
+}
+
 .about-content ul {
   padding-top: 20px;
 }
 
 .about-content ul li {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
+  color: #666;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
   list-style-type: none;
+  font-family: 'RobotoMono-Regular', 'Helvetica Neue', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;

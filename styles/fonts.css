@@ -19,3 +19,17 @@
   local('NeueHaasUnicaPro-Medium'),
   url('../assets/fonts/NeueHaasUnicaPro-Medium.woff')
 }
+
+@font-face {
+  font-family: 'RobotoMono-Regular';
+  src: url('../assets/fonts/RobotoMono-Regular.ttf');
+  local('RobotoMono-Regular'),
+  url('../assets/fonts/RobotoMono-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'RobotoMono-Medium';
+  src: url('../assets/fonts/RobotoMono-Medium.ttf');
+  local('RobotoMono-Medium'),
+  url('../assets/fonts/RobotoMono-Medium.ttf')
+}
