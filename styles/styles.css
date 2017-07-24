@@ -92,6 +92,10 @@ hr {
   border-bottom: 1px solid currentColor;
 }
 
+.thick-underline {
+  border-bottom: 3px solid currentColor;
+}
+
 /* INDEX PAGE CONTENT */
 .index-content {
   width: 100%;
@@ -367,6 +371,15 @@ hr {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1.email-link {
+  padding-top: 10px;
+}
+
+h1.email-link a {
+  width: 100%;
+  font-size: 24px;
 }
 
 /* 404 PAGE STYLES */
