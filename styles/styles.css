@@ -1,23 +1,13 @@
 /* GLOBAL STYLES */
-
 * {
   margin: 0;
   padding: 0;
-}
-
-:root {
-  --accent: #95c76f;
-}
-
-::selection {
-  background: #95c76f;
 }
 
 body {
   color: #343434;
   font-size: 18px;
   line-height: 1.5;
-  /*background-color: #fff;*/
   background-color: #f5f5f5;
   font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -91,26 +81,27 @@ hr {
   float: right;
 }
 
+:root {
+  --accent: #95c76f;
+}
+
+::selection {
+  background: #95c76f;
+}
+
+.underline {
+  border-bottom: 1px solid currentColor;
+}
+
 /* INDEX PAGE CONTENT */
 .index-content {
   width: 100%;
   margin: 0 auto;
   display: block;
-  /*max-width: 720px;*/
   max-width: 820px;
   padding-top: 75px;
   position: relative;
   padding-bottom: 150px;
-}
-
-.index-content h1 {
-  color: #2f2f2f;
-  font-size: 16px;
-  line-height: 1.5;
-  padding-bottom: 5px;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 
 .index-content p {
@@ -333,10 +324,6 @@ hr {
 }
 
 /* ABOUT PAGE */
-.underline {
-  border-bottom: 1px solid currentColor;
-}
-
 .about-content {
   width: 100%;
   margin: 0 auto;
