@@ -6,22 +6,15 @@
 }
 
 @font-face {
-  font-family: 'NeueHaasGrotesk-Regular';
-  src: url('../assets/fonts/NeueHaasGroteskRegular.ttf');
-  local('NeueHaasGroteskRegular'),
-  url('../assets/fonts/NeueHaasGroteskRegular.ttf')
+  font-family: 'NeueHaasUnicaPro-Regular';
+  src: url('../assets/fonts/NeueHaasUnicaPro-Regular.woff');
+  local('NeueHaasUnicaPro-Regular'),
+  url('../assets/fonts/NeueHaasUnicaPro-Regular.woff')
 }
 
 @font-face {
-  font-family: 'NeueHaasGrotesk-Medium';
-  src: url('../assets/fonts/NeueHaasGroteskMedium.ttf');
-  local('NeueHaasGroteskMedium'),
-  url('../assets/fonts/NeueHaasGroteskMedium.ttf')
-}
-
-@font-face {
-  font-family: 'NeueHaasGrotesk-Bold';
-  src: url('../assets/fonts/NeueHaasGroteskBold.ttf');
-  local('NeueHaasGroteskBold'),
-  url('../assets/fonts/NeueHaasGroteskBold.ttf')
+  font-family: 'NeueHaasUnicaPro-Medium';
+  src: url('../assets/fonts/NeueHaasUnicaPro-Medium.woff');
+  local('NeueHaasUnicaPro-Medium'),
+  url('../assets/fonts/NeueHaasUnicaPro-Medium.woff')
 }
