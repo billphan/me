@@ -381,6 +381,29 @@ h1.email-link a {
   font-size: 24px;
 }
 
+/* PACE LOADER */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+  z-index: 2000;
+  position: fixed;
+  background: #95c76f;
+}
+
 /* 404 PAGE STYLES */
 #world {
   top: 0;
