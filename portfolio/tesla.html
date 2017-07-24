@@ -24,15 +24,14 @@
     <script type="text/javascript" src="../scripts/lightgallery.js"></script>
     <!-- WOW SCRIPT -->
     <script>
-      wow = new WOW (
+      var wow = new WOW(
         {
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       0,          // default
-        mobile:       False,       // set to false
-        live:         true        // default
+          boxClass:     'wow',      // animated element css class (default is wow)
+          animateClass: 'animated', // animation css class (default is animated)
+          offset:       0,          // distance to the element when triggering the animation (default is 0)
+          mobile:       false       // trigger animations on mobile devices (true is default)
         }
-      )
+      );
       wow.init();
     </script>
     <!-- LIGHTGALLERY SCRIPT -->
