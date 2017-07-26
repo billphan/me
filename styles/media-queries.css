@@ -54,6 +54,15 @@
     float: none;
   }
 
+  .index-footer h1 {
+    clear: both;
+    width: 100%;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
   /* INDIVIDUAL PROJECT PAGES */
   .project-content {
     max-width: 95%;
@@ -201,7 +210,7 @@
     margin-top: 50px;
     margin-bottom: 100px;
   }
-  
+
 }
 
 /* #Tablet (Portrait) */

@@ -182,6 +182,28 @@ hr {
   opacity:1;
 }
 
+.index-footer h1 {
+  clear: both;
+  width: 100%;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer-links {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.footer-links a {
+  width: 100%;
+  padding: 0 10px;
+}
+
 /* PROJECT PAGES */
 .project-content {
   width: 100%;
@@ -370,10 +392,6 @@ hr {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-h1.email-link {
-  padding-top: 10px;
 }
 
 h1.email-link a {
