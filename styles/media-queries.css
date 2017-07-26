@@ -164,6 +164,21 @@
 
 /* Viewports smaller than 650px */
 @media screen and (max-width: 650px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* INDEX PAGE */
+  .index-content {
+    max-width: 95%;
+    padding: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
 }
 
 /* Viewports smaller than 480px */
