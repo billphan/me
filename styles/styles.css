@@ -186,7 +186,6 @@ hr {
   clear: both;
   width: 100%;
   font-size: 32px;
-  padding-top: 10px;
   padding-top: 50px;
   text-align: center;
 }
@@ -195,7 +194,7 @@ hr {
   width: 100%;
   display: block;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 35px;
   text-align: center;
 }
 

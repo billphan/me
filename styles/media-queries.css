@@ -55,11 +55,11 @@
   }
 
   .index-footer h1 {
-    clear: both;
-    width: 100%;
-    font-size: 32px;
-    padding-top: 10px;
-    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .footer-links {
     text-align: center;
   }
 
