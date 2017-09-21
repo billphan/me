@@ -80,6 +80,10 @@ hr {
   float: right;
 }
 
+.design {
+  padding-right: 15px;
+}
+
 :root {
   --accent: #95c76f;
 }
