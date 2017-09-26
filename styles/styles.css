@@ -80,10 +80,6 @@ hr {
   float: right;
 }
 
-.design {
-  padding-right: 15px;
-}
-
 :root {
   --accent: #95c76f;
 }
@@ -128,7 +124,7 @@ hr {
   clear: both;
   height: 100%;
   overflow: auto;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .index-work a, img {
@@ -191,16 +187,16 @@ hr {
   clear: both;
   width: 100%;
   font-size: 32px;
-  text-align: left;
-  /*padding-top: 50px;*/
+  text-align: center;
+  padding-top: 50px;
 }
 
 .footer-links {
   width: 100%;
   display: block;
   margin: 0 auto;
-  text-align: left;
   padding-top: 35px;
+  text-align: center;
 }
 
 .footer-links a {
