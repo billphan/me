@@ -1,23 +1,10 @@
 /* FONTS */
+
 @font-face {
   font-family: 'DisplayType';
   src: url('../assets/fonts/DisplayType.woff');
   local('DisplayType'),
   url('../assets/fonts/DisplayType.woff')
-}
-
-@font-face {
-  font-family: 'NeueHaasUnicaPro-Regular';
-  src: url('../assets/fonts/NeueHaasUnicaPro-Regular.woff');
-  local('NeueHaasUnicaPro-Regular'),
-  url('../assets/fonts/NeueHaasUnicaPro-Regular.woff')
-}
-
-@font-face {
-  font-family: 'NeueHaasUnicaPro-Medium';
-  src: url('../assets/fonts/NeueHaasUnicaPro-Medium.woff');
-  local('NeueHaasUnicaPro-Medium'),
-  url('../assets/fonts/NeueHaasUnicaPro-Medium.woff')
 }
 
 @font-face {

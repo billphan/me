@@ -1,231 +1,72 @@
-@-ms-viewport{
-  width: device-width;
-}
+/* MEDIA QUERIES */
 
 /* Viewports smaller than 720px */
 @media screen and (max-width:720px) {
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-  /* INDEX PAGE */
-  .index-content {
-    max-width: 95%;
-    padding: 0 20px;
-    margin-top: 50px;
+  
+  .content {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 20px;
+    /*margin-top: 50px;*/
     margin-bottom: 100px;
   }
 
-  .index-content h1 {
+  .content h1, .content h1 a {
     font-size: 18px;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
 
-  .index-content p {
+  .content p {
     width: 100%;
-    font-size: 18px;
-    padding: 75px 0px 40px 0px;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .work-image {
-    width: 100%;
-    padding-bottom: 0;
-  }
-
-  .work-image img {
-    width: 100%;
-  }
-
-  .work-left-col {
-    width: 100%;
-    float: none;
-  }
-
-  .work-right-col {
-    width: 100%;
-    float: none;
-  }
-
-  .index-footer h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .footer-links {
-    text-align: center;
-  }
-
-  /* INDIVIDUAL PROJECT PAGES */
-  .project-content {
-    max-width: 95%;
-    padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-  .project-content .nav h1 {
-    font-size: 18px;
-  }
-
-  .project-content .project-info {
-    width: 100%;
-    padding: 25px 0 25px 0;
-  }
-
-  .project-content .project-info h1 {
-    color: #222;
-    font-size: 26px;
-    padding: 20px 0px 30px 0;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .project-content .project-info p {
-    color: #222;
-    font-size: 16px;
-    margin: 25px 0 25px 0;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .project-content .project-section h1 {
-    color: #222;
-    font-size: 18px;
-    padding: 0 0 15px 0;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .project-content .project-section h2 a {
-    color: #222;
-    font-size: 18px;
-    padding: 0 0 10px 0;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .project-content .project-section p {
-    color: #222;
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
 
-  .project-image img {
-    width: 100%;
-  }
-
-  #lightGallery li img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  /* ABOUT PAGE */
-  .about-content {
-    max-width: 95%;
-    padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-  .about-content h1, .about-content h1 a {
-    font-size: 18px;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .about-content p {
-    width: 100%;
-    font-size: 18px;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-  }
-
-  .about-content ul, .about-content ul li {
-    font-size: 18px;
+  .content ul, .content ul li {
+    font-size: 16px;
     list-style-type: none;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
 
+  p.intro {
+    font-size: 28px;
+  }
+
   h1.email-link a {
     font-size: 24px;
   }
 
+  p.social a {
+    font-size: 16px;
+  }
 }
 
 /* Viewports smaller than 650px */
 @media screen and (max-width: 650px) {
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-  /* INDEX PAGE */
-  .index-content {
-    max-width: 95%;
-    padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-}
-
-/* Viewports smaller than 480px */
-@media screen and (max-width: 480px) {
 }
 
 /* iPad Landscape Orientation Media Query Smaller than 768px; */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-  /* INDEX PAGE */
-  .index-content {
-    max-width: 95%;
-    padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-}
-
-/* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-}
-
-/*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-}
-
-/* #Mobile (Landscape) - Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-/*  (iPhone 5/5S Portrait!) - Note: Design for a width of 320px */
-@media only screen and (max-width: 350px) {
-
 }
