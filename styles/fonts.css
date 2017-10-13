@@ -20,3 +20,17 @@
   local('RobotoMono-Medium'),
   url('../assets/fonts/RobotoMono-Medium.ttf')
 }
+
+@font-face {
+  font-family: 'GTWalsheimPro-Bold';
+  src: url('../assets/fonts/GTWalsheimProTrial-Bold.otf');
+  local('GTWalsheimPro-Bold'),
+  url('../assets/fonts/GTWalsheimProTrial-Bold.otf')
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro-Regular';
+  src: url('../assets/fonts/GTWalsheimProTrial-Regular.otf');
+  local('GTWalsheimPro-Regular'),
+  url('../assets/fonts/GTWalsheimProTrial-Regular.otf')
+}
