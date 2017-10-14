@@ -6,10 +6,11 @@
 
 body {
   color: #343434;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   background-color: #f5f5f5;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
+  font-family: 'GTWalsheimPro-Regular', sans-serif;
+  /*font-family: 'RobotoMono-Regular', sans-serif;*/
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -41,7 +42,7 @@ p {
   margin: 30px 0;
   font-size: 20px;
   line-height: 1.5;
-  font-family: 'NeueHaasUnicaPro-Regular', sans-serif;
+  font-family: 'GTWalsheimPro-Regular', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -66,7 +67,7 @@ hr {
 
 .nav h1 {
   color: #2f2f2f;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   padding-bottom: 5px;
   font-family: 'DisplayType', 'Helvetica Neue', sans-serif;
@@ -107,7 +108,7 @@ hr {
 
 .content h1 {
   color: #2f2f2f;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   padding-bottom: 10px;
   font-family: 'DisplayType', 'Helvetica Neue', sans-serif;
@@ -118,10 +119,10 @@ hr {
 
 .content p {
   color: #666;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.5px;
-  font-family: 'RobotoMono-Regular', 'Helvetica Neue', sans-serif;
+  font-family: 'GTWalsheimPro-Regular', 'Helvetica Neue', sans-serif;
 }
 
 .content ul {
@@ -134,7 +135,7 @@ hr {
   line-height: 1.5;
   letter-spacing: 0.5px;
   list-style-type: none;
-  font-family: 'RobotoMono-Regular', 'Helvetica Neue', sans-serif;
+  font-family: 'GTWalsheimPro-Regular', 'Helvetica Neue', sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -147,7 +148,8 @@ p.intro {
 }
 
 p.social {
-  padding-top: 25px;
+  font-size: 14px;
+  /*padding-top: 25px;*/
   letter-spacing: 0px;
 }
 
