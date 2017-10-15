@@ -28,9 +28,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  /*transition: 0.4s; */
   box-shadow: 0 -0.3em 0 var(--accent) inset;
-  /*color: var(--accent);*/
   transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -94,16 +92,10 @@ hr {
 
 /* INDEX-CONTENT */
 .content {
-  /*width: 100%;*/
-  /*margin: 0 auto;*/
   display: block;
-  max-width: 720px;
-  /*padding-top: 75px;*/
-  position: relative;
-  /*padding-bottom: 150px;*/
-
   margin: 5% 10%;
-  /*max-width: 600px;*/
+  max-width: 720px;
+  position: relative;
 }
 
 .content h1 {
@@ -149,7 +141,6 @@ p.intro {
 
 p.social {
   font-size: 14px;
-  /*padding-top: 25px;*/
   letter-spacing: 0px;
 }
 
